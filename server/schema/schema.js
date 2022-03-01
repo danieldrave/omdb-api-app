@@ -22,7 +22,7 @@ const queryType = new GraphQLObjectType({
   fields: {
     search: {
       type: SearchType,
-      args: {
+      args: { // Name of our parameters in GraphQL query
         apiKey: { type: GraphQLString },
         searchTerm: { type: GraphQLString },
         // TODO pagination

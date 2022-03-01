@@ -6,7 +6,7 @@ const {
 
 const SearchResult = new GraphQLObjectType({
   name: `SearchResult`,
-  fields: {
+  fields: { // These fields are what we can specify in our GraphQL objects
     title: {
       type: GraphQLString,
       resolve: (result) => result.Title,
