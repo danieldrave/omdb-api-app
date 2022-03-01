@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ApiQuery from './components/Test';
+import ApiQuery from './components/Movies';
 import Top from './components/Top';
 import React, { Component } from 'react';
 
