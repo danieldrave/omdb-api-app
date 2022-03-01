@@ -25,7 +25,6 @@ const queryType = new GraphQLObjectType({
       args: { // Name of our parameters in GraphQL query
         apiKey: { type: GraphQLString },
         searchTerm: { type: GraphQLString },
-        // TODO pagination
       },
       resolve: (root, args) => fetchSearch(args.apiKey, args.searchTerm),
     },
