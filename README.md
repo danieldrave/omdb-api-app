@@ -29,12 +29,13 @@ localStorage items.
 * State of modal is handled via `App.js` with a parent/child relationship to the `Top.js` component
 
 #### Future improvements
-**Technical Architecture**
+
+Technical Architecture
 * Unify approach with components, currently in the app there `const () => {}` and `class Name extends React.Component` syntax.
 * Add paging parameter to `server` and `client` to allow for pagination when searching movies.
 * Database / API model to store a users top movies so they can persist across browsers / devices.
 
-**UI/UX**
+UI/UX
 * Remove `alert()` functionality for nicely styled application modals
 * Installation of `SCSS` to go hand in hand with existing BEM CSS methodology.
 * Helper classes to remove repeat lines of CSS.
